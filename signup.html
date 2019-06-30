@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>  
+        <title>LAKSHYA</title> 
+		<style type="text/css">		
+				form {
+				border: 3px solid white;
+				}
+				#name {
+				position:absolute;
+				left: 250px;
+				top: 365px;
+				}
+				#name1 {
+				position:absolute;
+				left: 250px;
+				top: 425px;
+				}
+				#pass {
+				position:absolute;
+				left: 250px;
+				top: 480px;
+				}
+				#remb {
+				position: relative;
+				top: 17px;
+				left: 490px;
+				}
+				#forg {
+				position: absolute;
+				top: 636px;
+				left: 730px;
+				}
+				#forg a {
+					color:black;
+					text-decoration: none;
+				}
+				#cancel {
+				position:absolute;
+				top: 700px;
+				left: 310px;
+				}
+				#pass1 {
+				position:absolute;
+				left: 250px;
+				top: 530px;
+				}
+
+		/* Full-width inputs */
+		input[type=text], input[type=password] {
+		  position: relative;
+		  width: 50%;
+		  left: 320px;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  box-sizing: border-box;
+		}
+
+		/* Set a style for all buttons */
+		button {
+		position: relative;
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 14px 20px;
+		  left: 320px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+		  width: 50%;
+		} 
+		button:hover {
+		  opacity: 0.8;
+		}
+		.cancelbtn {
+		  width: auto;
+		  padding: 10px 18px;
+		  background-color: #f44336;
+		}
+		.imgcontainer {
+		  text-align: center;
+		  margin: 24px 0 12px 0;
+		}
+		img.avatar {
+		  width: 40%;
+		  border-radius: 50%;
+		}
+		.container {
+		  padding: 16px;
+		}
+		span.psw {
+		  float: right;
+		  padding-top: 16px;
+		}
+		/*@media screen and (max-width: 300px) {
+		  span.psw {
+			display: block;
+			float: none;
+		  }
+		  .cancelbtn {
+			width: 100%;
+		  }
+		}*/
+			</style>
+        <meta charset="utf-8" />
+    </head>
+<form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="img_avatar.png" alt="Avatar" class="avatar" height="280px" width="80px">
+  </div>
+
+  <div class="container">
+    <div id="name"><label for="uname"><b>Email</b></label></div>
+    <input type="text" placeholder="Enter Email" name="uname" required>
+    <br />
+	
+	<div id="name1"><label for="uname"><b>Username</b></label></div>
+    <input type="text" placeholder="Enter Username" name="uname1" required>
+	
+    <div id="pass"><label for="psw"><b>Password</b></label></div>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+	
+	<div id="pass1"><label for="psw1"><b>Confirm<br />Password</b></label></div>
+    <input type="password" placeholder="Enter Same Password Again" name="psw1" required>
+
+    <button type="submit">SIGN UP</button>
+    <label>
+      <div id="remb"><input type="checkbox" checked="checked" name="remember"> Remember me</div>
+    </label>
+  </div>
+
+  <div class="container" >
+    <div id="cancel"><a href="LAK5HYA.html"><button type="button" class="cancelbtn">Cancel</button></a></div>
+    <div id="forg"><span class="psw">Forgot <a href="#">password?</a></span></div>
+  </div>
+</form>
